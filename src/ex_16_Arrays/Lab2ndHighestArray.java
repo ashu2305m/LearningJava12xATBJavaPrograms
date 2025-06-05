@@ -15,6 +15,6 @@ public class Lab2ndHighestArray {
                 secondHighest = num;
             }
         }
-        System.out.println(secondHighest);
+        System.out.println(secondHighest); // this statement is outside of  for loop
     }
 }
