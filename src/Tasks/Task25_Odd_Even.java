@@ -1,6 +1,6 @@
 package Tasks;
 
-public class Task125_Odd_Even {
+public class Task25_Odd_Even {
     public static void main(String[] args) {
         int[] num={10,23,42,55,67,78,99};
         int Even=0;

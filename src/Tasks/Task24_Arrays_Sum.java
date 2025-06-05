@@ -1,6 +1,6 @@
 package Tasks;
 
-public class Task124_Arrays_Sum {
+public class Task24_Arrays_Sum {
     public static void main(String[] args) {
         int[] num={10,22,34,56,68,89};
         int sum=0;
