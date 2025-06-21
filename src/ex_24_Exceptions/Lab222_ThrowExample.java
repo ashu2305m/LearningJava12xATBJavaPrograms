@@ -9,7 +9,7 @@ public class Lab222_ThrowExample {
     static void validate_age_for_club(int age){
         if(age < 18){
             try {
-                throw new Exception("Age can't be 18");
+                throw new Exception("Age can't be less than 18");   // custom exception
             } catch (Exception e) {
                 System.out.println(e.getMessage());
             }
