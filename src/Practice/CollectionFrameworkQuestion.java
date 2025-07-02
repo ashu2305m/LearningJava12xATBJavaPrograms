@@ -1,9 +1,9 @@
-package ex_26_Collection_Framework.List;
+package Practice;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class LabInterview {
+public class CollectionFrameworkQuestion {
     public static void main(String[] args) {
         ArrayList<Integer> al = new ArrayList();
         al.add(1);
@@ -20,6 +20,3 @@ public class LabInterview {
         // 1,2,3,4(input) -> 24,18,12,6(output)
     }
 }
-
-// we are enetring elements 1,2,3,4 in ArrayList using add function and then we will reverse the List
-// using Collections.sort(al,Collections.reverseOrder()) and then multiply every element with 6

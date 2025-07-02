@@ -5,14 +5,14 @@ import java.util.Stack;
 public class Lab238_Stack {
     public static void main(String[] args) {
         // Stack
-        //  List In and First Out
+        //  Last In and First Out
 
-//        Stack s = new Stack();
-//        s.add("Pramod");
-//        s.add("Dutta");
-//        s.add("Amit");
+    //    Stack s = new Stack();
+    //   s.add("Pramod");
+    //    s.add("Dutta");
+    //    s.add("Amit");
 
-        Stack s = new Stack();
+        Stack s= new Stack();
         s.push("Pramod");
         s.push("Dutta");
         s.push("Amit");
@@ -22,9 +22,9 @@ public class Lab238_Stack {
 
         System.out.println(s.size());
         System.out.println(s);
-        System.out.println(s.peek());
+        System.out.println(s.peek());  // element at top of the stack which is Amit2
         System.out.println(s);
-        System.out.println(s.pop());
+        System.out.println(s.pop());   // Remove the top stack element
         System.out.println(s);
         System.out.println(s.size());
         System.out.println(s.empty());

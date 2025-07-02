@@ -7,7 +7,7 @@ public class Task9_Vowels_Consonant_Count {
     {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the Alphabets A-Z or a-z");
-        String str = scanner.nextLine().toLowerCase();
+        String str = scanner.next().toLowerCase();
         int VowelsCount = 0;// we need to declare initial value because its local variable
         int ConsonantsCount = 0;
         //check if users enter alphabet or not
@@ -22,8 +22,7 @@ public class Task9_Vowels_Consonant_Count {
                 if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
                 {
                     VowelsCount++;
-                } else
-                {
+                } else {
                     ConsonantsCount++;
                 }
 

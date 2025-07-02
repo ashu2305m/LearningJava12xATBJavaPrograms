@@ -21,10 +21,10 @@ public class Lab141_String_Interview_P2 {
 
 
         // equals ( content) -> value
-        System.out.println(s1.equals(s2));
-        System.out.println(s1.equals(s3));
-        System.out.println(s3.equals(s5));
-        System.out.println(s3.equalsIgnoreCase(s5));
+        System.out.println(s1.equals(s2));           // true
+        System.out.println(s1.equals(s3));          // true
+        System.out.println(s3.equals(s5));          // false
+        System.out.println(s3.equalsIgnoreCase(s5));// true
 
         //  equalsIgnoreCase -> pramod. Pramod, PRAMOD , PraMod . PramoD -> pramod
         //  == - check for the ref

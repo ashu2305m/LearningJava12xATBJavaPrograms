@@ -22,7 +22,7 @@ public class Lab241_SET_HS_LHS_TS {
 
         Set lhs = new LinkedHashSet();
         // LinkedList mechanism to store the element,
-        // order will maintain, no duplicates
+        // order will maintain in which they entered, no duplicates
 
         lhs.add("Dpple");
         lhs.add("apple");

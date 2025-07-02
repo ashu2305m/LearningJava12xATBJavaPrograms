@@ -26,7 +26,7 @@ public class Student {
     }
 
     @Override
-    public String toString() {
+    public String toString() {    // toString() method can print the details of any object i.e., student here
         return "Student{" +
                 "name='" + name + '\'' +
                 ", rollNo='" + rollNo + '\'' +

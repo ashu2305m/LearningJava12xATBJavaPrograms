@@ -35,6 +35,8 @@ first_number = 0
 
 second_number = 1
 
+first_number is printed
+
 Now, the next number is 0 + 1 = 1
 
 Then, after that:
@@ -43,3 +45,8 @@ New first number = old second number
 
 New second number = next number
  */
+
+/*
+A Fibonacci number is a term in the Fibonacci sequence,
+which is a series of numbers where each number is the sum of the two preceding ones.
+3 5 8 13 21 .....*/

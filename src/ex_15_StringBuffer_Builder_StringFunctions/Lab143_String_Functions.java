@@ -5,7 +5,7 @@ public class Lab143_String_Functions {
         String name = "Sonal";
         System.out.println(name.length());
         System.out.println(name.charAt(3));
-        System.out.println(name.charAt(10)); // java.lang.StringIndexOutOfBoundsException: Index 10 ou
+      //  System.out.println(name.charAt(10)); // java.lang.StringIndexOutOfBoundsException: Index 10 ou
 
         // 2. concat()
         System.out.println(name.concat(" Patel"));

@@ -11,6 +11,8 @@ public class Lab235_LL_List {
         mylist.add(3);
         mylist.add(4);
         mylist.add(4);
+        mylist.add(null);
+        mylist.add(null);
         System.out.println(mylist);
     }
 }

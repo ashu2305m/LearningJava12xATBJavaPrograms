@@ -11,11 +11,11 @@ public class Lab233_ArrayList {
         marks.add(89);
 
         System.out.println(marks);
-//        Collections.sort(marks);
+//        Collections.sort(marks);  // sorting in ascending order
 //        System.out.println(marks);
 
 
-        Collections.sort(marks,Collections.reverseOrder());
+        Collections.sort(marks,Collections.reverseOrder()); // sorting in descending order
         System.out.println(marks);
 
     }
