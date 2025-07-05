@@ -42,7 +42,7 @@ public class Bank {
 
 }
 
-class CustomException extends Exception {
+public class CustomException extends Exception {
     CustomException(String msg) {
         super(msg);
     }

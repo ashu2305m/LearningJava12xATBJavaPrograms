@@ -13,14 +13,19 @@ public class DuplicateElementsArray_part02 {
                 System.out.println("Duplicate element is:::"+name);
             }
         }
+
+        String[] dupArray={"Mumbai","Chennai","Delhi","Kochi","Chennai","Kochi","Trivandrum","Delhi"};
+        Map<String,Integer> myMap=new HashMap<>();
+        int counter=0;
+        for (String city:dupArray) {
+            if(myMap.put(city,++counter)!=null){
+                System.out.println("Duplicate Value="+city);
+            }
+        }
+
+
+
     }
 }
 
-/*   String[] dupArray={"Mumbai","Chennai","Delhi","Kochi","Chennai","Kochi","Trivandrum","Delhi"};
-     Map<String,Integer> myMap=new HashMap<>();
-     int counter=0;
-        for (String city:dupArray) {
-        if(myMap.put(city,++counter)!=null){
-        System.out.println("Duplicate Value="+city);
-            }
-                    }*/
+

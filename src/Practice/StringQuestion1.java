@@ -5,9 +5,10 @@ public class StringQuestion1 {
     public static void main(String[] args) {
                 String input = "Ravi Teja Bompally";
                 String[] words = input.split(" ");
+       // So, after this line executes, the words array will contain three elements: {"Ravi", "Teja", "Bompally"}
 
                 StringBuilder result = new StringBuilder();
-                for (int i = 0; i < words.length - 1; i++) {  // i = 0,1
+                for (int i = 0; i < words.length - 1; i++) {   // i = 0,1
                     result.append(words[i].charAt(0)).append(".");
 
                 }

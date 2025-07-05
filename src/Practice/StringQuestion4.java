@@ -1,7 +1,7 @@
 package Practice;
 
-/*Input: tomorrow
-Output: t3m3223w*/
+// Input: tomorrow
+// Output: t3m3223w
 public class StringQuestion4 {
     public static void main(String[] args) {
        String input = "tomorrow";

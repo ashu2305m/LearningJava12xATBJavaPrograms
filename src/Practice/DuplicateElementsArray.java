@@ -47,8 +47,8 @@ public class DuplicateElementsArray {
 
         // get the values from this HashMap:
 
-        Set<Entry<String,Integer>> entrySet = element.entrySet();  // special method called entrySet is used to iterate elements i.e., key and value pair
-        for(Entry<String,Integer> entry : entrySet) {
+        Set<Entry<String,Integer>> entrySet = element.entrySet();  // special method called entrySet is used to store the key-value pair
+        for(Entry<String,Integer> entry : entrySet) {             // and then using for loop iterate elements
             if(entry.getValue()>1){
                 System.out.println("Duplicate Element is ->" +entry.getKey());
             }

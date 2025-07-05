@@ -10,6 +10,8 @@ public class StringQuestion2 {
         StringBuilder digits = new StringBuilder();
         StringBuilder specialChars = new StringBuilder();
 
+        // For example, if input is "hello", input.toCharArray() would return a char[]
+        // like {'h', 'e', 'l', 'l', 'o'}.
         for (char ch : input.toCharArray()) {
             if (Character.isLetter(ch)) {
                 alphabets.append(ch);
