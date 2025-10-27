@@ -27,7 +27,7 @@ public class Bank {
     }
 
 
-    public Integer add(Bank bankName) {
+    /*public Integer add(Bank bankName) {
         if (bankName.currency.equalsIgnoreCase("INR")) {
             return bankName.amount + this.amount;
         } else {
@@ -37,13 +37,13 @@ public class Bank {
                 throw new RuntimeException(e);
             }
         }
-    }
+    }*/
 
 
 }
 
-public class CustomException extends Exception {
+/*public class CustomException extends Exception {
     CustomException(String msg) {
         super(msg);
     }
-}
+}*/

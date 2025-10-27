@@ -9,7 +9,7 @@ public class FrequencyOfElements {
         Map<Integer, Integer> frequencyMap = new HashMap<>();
 
         for (int number : numbers) {
-            frequencyMap.put(number, frequencyMap.getOrDefault(number, 0) + 1);
+            frequencyMap.put(number, frequencyMap.getOrDefault(number, 0) + 1);  // frequencyMap.put(key, value)
         }
 
         for (Map.Entry<Integer, Integer> entry : frequencyMap.entrySet()) {

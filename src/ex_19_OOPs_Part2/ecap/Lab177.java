@@ -4,6 +4,7 @@ public class Lab177 {
     public static void main(String[] args) {
         ICICIBank amit = new ICICIBank("Amit",100);
         System.out.println(amit.getBal());
+        System.out.println(amit.getName());
 
         boolean isCashier  = false;
         amit.setBal(1000, isCashier);

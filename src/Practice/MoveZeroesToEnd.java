@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class MoveZeroesToEnd {
     public static void main(String[] args) {
         // Example array with zeros randomly distributed
-        int[] nums = {1, 0, 2, 0, 3, 0, 4, 0, 5,};
+        int[] nums = {1, 0, 2, 0, 3, 0, 4, 0, 5};
 
         // Print the original array to see the initial state
         System.out.println("Original Array: " + Arrays.toString(nums));
@@ -18,7 +18,7 @@ public class MoveZeroesToEnd {
                 nums[count++] = nums[i];
             }
         }
-        while(count < nums.length){
+        while(count < nums.length){   //  (from index 0 up to nums.length - 1)
             nums[count++] = 0;
         }
 

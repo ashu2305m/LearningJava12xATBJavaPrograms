@@ -7,7 +7,6 @@ public class Lab129_Method_Functions {
     }
 
     //  Step 1 - Def
-
     static  void name_of_the_func(){
         System.out.println("Hi");
     }

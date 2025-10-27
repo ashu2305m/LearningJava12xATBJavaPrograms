@@ -4,6 +4,7 @@ public class Lab187_Interface_P1 {
     public static void main(String[] args) {
         Car1 car1 = new Car1();
         car1.drive();
+        car1.testEngine();
     }
 }
 
@@ -18,6 +19,7 @@ class Car1 implements Engine1,Brakes{
 
     @Override
     public void testEngine() {   // Even if this method is removed it doesn't matter as this method is complete in parent
+    //   Engine1.super.testEngine(); // using super keyword I can call parent method of testEngine()
         System.out.println("Override by the Car 1");
     }
 

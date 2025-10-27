@@ -23,8 +23,6 @@ public class DuplicateElementsArray_part02 {
             }
         }
 
-
-
     }
 }
 

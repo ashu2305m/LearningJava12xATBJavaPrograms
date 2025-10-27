@@ -11,8 +11,8 @@ public class LabStringExamples {
         System.out.println(s.codePointAt(0)); // It prints the unicode character of letter at index-0 here its J=74
 
         // CompareToIgnore(Sting sr)
-//        int result = "abc".compareTo("ABC");
-//        int result2 = "abc".compareToIgnoreCase("ABC");
+//        int result = "abc".compareTo("ABC"); // not true so will print difference btw ABC-abc
+//        int result2 = "abc".compareToIgnoreCase("ABC"); // print 0 bcoz its true and in integer terms true is 0
 //        System.out.println(result); // any arbitrary number
 //        System.out.println(result2); // since its int so it cant print true which is boolean so it will print 0 for matching value
 //

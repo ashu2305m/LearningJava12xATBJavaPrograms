@@ -47,12 +47,13 @@ public class DuplicateElementsArray {
 
         // get the values from this HashMap:
 
-        Set<Entry<String,Integer>> entrySet = element.entrySet();  // special method called entrySet is used to store the key-value pair
-        for(Entry<String,Integer> entry : entrySet) {             // and then using for loop iterate elements
+      /*  Set<Entry<String,Integer>> entrySet = element.entrySet();  // special method called entrySet is used to store the key-value pair
+        for(Entry<String,Integer> entry : entrySet) {             // and then using for loop iterate elements*/
+            for(Map.Entry<String,Integer> entry : element.entrySet()){
+                System.out.println("The occurence of element "+entry.getKey()+" is "+ entry.getValue()); // occurence of every element
             if(entry.getValue()>1){
                 System.out.println("Duplicate Element is ->" +entry.getKey());
             }
-            System.out.println("The occurence of element "+entry.getKey()+" is "+ entry.getValue()); // occurence of every element
         }
 
     }

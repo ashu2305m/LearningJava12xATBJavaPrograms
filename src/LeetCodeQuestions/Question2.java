@@ -2,7 +2,7 @@ package LeetCodeQuestions;
 
 import java.util.Arrays;
 
-// Remove Element
+// Remove Element like 3 from this array
 public class Question2 {
     public static void main(String[] args) {
         int[] nums={3,2,2,3};
