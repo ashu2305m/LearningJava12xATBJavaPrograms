@@ -10,8 +10,7 @@ public class vowels_consonants {
         int vowels = 0;
         int consonant = 0;
 
-        for(int i =0; i<=str.length()-1;i++){
-           char ch = str.charAt(i);
+        for (char ch : str.toCharArray()) {
                if(Character.isLetter(ch)){
                    if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u'){
                        vowels++;

@@ -54,6 +54,10 @@ public class DuplicateElementsArray {
             if(entry.getValue()>1){
                 System.out.println("Duplicate Element is ->" +entry.getKey());
             }
+                if(entry.getValue() ==1){
+                    System.out.println("The first Non Repeated Character is -> " +entry.getKey());
+                    break;
+                }
         }
 
     }
